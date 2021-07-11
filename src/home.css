@@ -1,7 +1,12 @@
 @font-face {
-    font-family: defaultFont;
+    font-family: headerFont;
     src: url(./assets/SourceSerifPro-Regular.ttf);
-  }
+}
+
+@font-face {
+    font-family: defaultFont;
+    src: url(./assets/OpenSans-Regular.ttf)
+}
 
 figure {
     margin: 0;
@@ -12,6 +17,51 @@ figure {
     flex-direction: column;
     align-items: center;
     font-family: defaultFont;
+}
+
+.home__header {
+    font-family: defaultFont;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.home__header nav:first-of-type {
+    width: 100%;
+    border-right: 1px solid grey;
+}
+
+.home__header nav:nth-of-type(2n) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.home__header-topnav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+
+.home__header-sidenav {
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__header-sidenav-button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home__header-image {
+    width: 20vw;
 }
 
 
@@ -42,6 +92,7 @@ figure {
 }
 
 .home__body__hero-header h1 {
+    font-family: headerFont;
     font-size: 48px;
     font-weight: lighter;
     margin: 0;
@@ -80,9 +131,10 @@ figure {
 }
 
 .home__body__content-block h2 {
-     font-size: 48px;
-     margin: 0;
-     font-weight: lighter;
+    font-family: headerFont;
+    font-size: 48px;
+    margin: 0;
+    font-weight: lighter;
 }
 
 .home__body__content-block section {
@@ -149,6 +201,7 @@ figure {
 }
 
 .home__body__articles h3 {
+    font-family: headerFont;
     font-size: 36px;
 }
 
@@ -161,6 +214,7 @@ figure {
 }
 
 .home__body__articles h4 {
+    font-family: headerFont;
     font-size: 36px;
     margin: 15px 0 0 0;
 }
