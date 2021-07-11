@@ -1,0 +1,22 @@
+{
+  "name": "static-mayo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-batson/static-mayo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peter-batson/static-mayo/issues"
+  },
+  "homepage": "https://github.com/peter-batson/static-mayo#readme",
+  "dependencies": {
+    "gatsby-cli": "^3.9.0"
+  }
+}
